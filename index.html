@@ -6,23 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CoachEra</title>
 
-    <link href="styles/site.css" rel="stylesheet">
-    <!-- <script href="https://kit.fontawesome.com/55a1ec0869.js" crossorigin="anonymous"></script> -->
+    <link href="site.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-    <script type="text/javascript">
-      $("#arrow").click(function(){
-        $("#landingscreen").slideUp();
-      });
-    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="site.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-  <header id="menubar">
+  <header class="menubar">
         <img id="fullmark" src=images/fullmark.png alt="CoachEra Logo">
-        <div id="menubuttons">
+        <div id="menubs">
           <li class="hover-underline-animation hover-reveal"><a href="index.html"><strong>About</strong></a></li>
           <li class="hover-underline-animation hover-reveal"><a href="participation.html">Participation</a></li>
           <li class="hover-underline-animation hover-reveal"><a href="contributors.html">Contributors</a></li>
@@ -41,13 +37,17 @@
       <div class="box" id=box1b>
           <img id="control" src=images/control.png alt="Take control of your day and download now">
           <div class="box" id=box1c>
-            <button>Android<i class="fa-brands fa-android"></i></button>
-            <button>iOS<i class="fa-brands fa-apple"></i></button>
+            <button class="downloads" onclick="location.href='#'" type="button">Android
+              <!-- <i class="fab fa-android" style="font: size 48px; color: #FFFFFF;"></i> -->
+            </button>
+            <button class="downloads" onclick="location.href='#'" type="button">iOS
+              <!-- <i class="fab fa-apple" style="font: size 48px; color: #FFFFFF;"></i> -->
+            </button>
             </div>
       </div>
     </div>
 
-    <button id="arrow"><img src=images/arrow.svg alt="Arrow pointing down"></button>
+    <button id="arrow" type="button"><img src=images/arrow.svg alt="Arrow pointing down"></button>
     <img id="graphic" src=images/duckgraphic.png alt="Graphic with duck in robot suit">
 
   </div>
@@ -61,7 +61,7 @@
         <p>CoachEra is a mobile application that assists you to stay persistent in the journey of achieving your learning goal.</p>
 
         <p>A coach will guide you to make weekly plans and check in with you every day on your progress. Coaching focuses more on building a sustainable learning routine rather than optimizing your learning process. This is because we actually struggle to keep up with the plan we made.</p>
-        <p>Haven’t you made a perfect plan and forget the plan 3 days after? Normally, things don’t go as planned. But this does not mean we give up on our learning goal. CoachEra will give you credit for continuing your learning regardless of how much progress you made. The coach will help you persist until your learning goal is achieved.</p>
+        <p>Have you made a perfect plan and forget the plan 3 days after? Normally, things don’t go as planned. But this does not mean we give up on our learning goal. CoachEra will give you credit for continuing your learning regardless of how much progress you made. The coach will help you persist until your learning goal is achieved.</p>
       </div>
     </div>
   </div>

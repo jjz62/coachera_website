@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CoachEra</title>
 
-    <link href="styles/site.css" rel="stylesheet">
+    <link href="site.css" rel="stylesheet">
     <script href="https://kit.fontawesome.com/55a1ec0869.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 
@@ -14,25 +14,22 @@
 
 <body>
 
-  <header>
+<header class="menubar" style="background-color: #031036; position:absolute; margin-top: 0;">
+    <img id="fullmark" src=images/fullmark.png alt="CoachEra Logo">
+    <div id="menubs">
+      <li class="hover-underline-animation hover-reveal"><a href="index.html">About</a></li>
+      <li class="hover-underline-animation hover-reveal"><a href="participation.html">Participation</a></li>
+      <li class="hover-underline-animation hover-reveal"><a href="contributors.html"><strong>Contributors</strong></a></li>
+    </div>
+</header>
 
-    <nav>
-      <div class="colored" id="menubar">
-        <img id="fullmark" src=images/fullmark.png alt="CoachEra Logo">
-        <div id="menubuttons">
-          <li class="hover-underline-animation hover-reveal"><a href="index.html">About</a></li>
-          <li class="hover-underline-animation hover-reveal"><a href="participation.html">Participation</a></li>
-          <li class="hover-underline-animation hover-reveal"><a href="contributors.html"><strong>Contributors</strong></a></li>
-        </div>
-      </div>
-    </nav>
+<div class="box">
 
-  </header>
+  <h3 style="margin-bottom: 50px; margin-left: 35%; margin-right: auto; margin-top: 150px;">Behind CoachEra</h3>
 
-  <h3 style="margin-bottom: 100px; margin-left: 35%; margin-right: auto; margin-top: 150px;">Behind CoachEra</h3>
-
-  <h2 style="margin-left: 20%;">The <strong id="xtra">Future of Learning Lab</strong></h2>
-  <div class="textblock2" style="display:flex; flex-direction: row; gap: 40px; margin-top: 40px;">
+  <div class="textblock2">
+  <h2>The <strong id="xtra">Future of Learning Lab</strong></h2>
+  <div style="display:flex; flex-direction: row; gap: 40px; margin-top: 40px;">
     <div style="display:flex; flex-direction: column; width: 40%;">
       <img id="gates" src=images/gates.jpeg alt="Cornell Gates building">
       <img id="learninglab" src=images/learninglab.png alt="Cornell Future of Learning Lab logo">
@@ -44,15 +41,18 @@
         <p>Learn more <a href="https://learning.cis.cornell.edu/">here.</a></p>
       </div>
   </div>
+  </div>
 
-  <h2 style="margin-left: 20%; margin-top: 5%;">The <strong id="xtra">Mobile Coach</strong></h2>
-  <div class="textblock2" style="display: flex; flex-direction: row;">
+  <div class="textblock2">
+  <h2 style="margin-top: 5%;"><strong id="xtra">Mobile Coach</strong></h2>
+  <div style="display: flex; flex-direction: row;">
     <img id="mobilecoach" src=images/mobilecoach.svg style="width:40%;">
       <div>
         <p>MobileCoach is an open-source digital intervention program created for the design of scalable digital health interventions. The MobileCoach mobile app served as the code base for CoachEra.</p>
 
         <p>Learn more <a href="https://www.mobile-coach.eu/">here.</a></p>
       </div>
+  </div>
   </div>
 
   <div class="textblock5">
@@ -78,6 +78,8 @@
         <p>Yixin Zhang</p>
       </div>
     </div>
+  </div>
+
   </div>
 
   <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
