@@ -39,10 +39,8 @@
           <img id="control" src=images/control.png alt="Take control of your day and download now">
           <div class="box" id=box1c>
             <button class="downloads" onclick="location.href='#'" type="button">Android
-              <!-- <i class="fab fa-android" style="font: size 48px; color: #FFFFFF;"></i> -->
             </button>
             <button class="downloads" onclick="location.href='#'" type="button">iOS
-              <!-- <i class="fab fa-apple" style="font: size 48px; color: #FFFFFF;"></i> -->
             </button>
             </div>
       </div>
@@ -53,23 +51,19 @@
 
   </div>
 
-  <div id="textblock">
-    <!-- <h3 style="margin-bottom: 100px; margin-left: 30%; margin-right: auto;">About CoachEra</h3> -->
-    <div class="box" id="box2">
-      <img id="demopic" src=images/appimage.jpg alt="Promo image of app">
-      <div class="box" id="box2a">
-        <h2>The <strong id="xtra">What</strong></h2>
+  <div id="textblock" style="display: flex; flex-direction: row;">
+      <div id="box2a">
+        <h2 style="text-align: left;">The What</h2>
         <p>CoachEra is a mobile application that assists you to stay persistent in the journey of achieving your learning goal.</p>
 
         <p>A coach will guide you to make weekly plans and check in with you every day on your progress. Coaching focuses more on building a sustainable learning routine rather than optimizing your learning process. This is because we actually struggle to keep up with the plan we made.</p>
         <p>Have you made a perfect plan and forget the plan 3 days after? Normally, things don’t go as planned. But this does not mean we give up on our learning goal. CoachEra will give you credit for continuing your learning regardless of how much progress you made. The coach will help you persist until your learning goal is achieved.</p>
       </div>
-    </div>
+      <img class="demopic" src=images/appimage.jpg alt="Promo image of app">
   </div>
 
-  <div class="textblock2" style="margin-left: 20%;">
-        <!-- <h2><strong id="xtra">CoachEra Features</strong></h2> -->
-        <p>CoachEra features a compnion Chatbot to help you:</p>
+  <div class="textblock2" style="margin-left: 10%;">
+        <h2>CoachEra Features</strong></h2>
         <div style="display: flex; flex-direction:row;">
           <div class="imagepic">
             <img class="features" src=images/studyplan.png>
@@ -90,23 +84,27 @@
         </div>
   </div>
 
+  <div style="width: 100%; background-color: #031036; padding-bottom: 3%; margin-top: 2%; margin-bottom: 2%; display: flex; flex-direction: row; align-items: center;">
   <div class="textblock2">
-        <h2>The <strong id="xtra">Who</strong></h2>
-        <p>Anyone who has a less prioritized but meaningful learning goal. What does this mean? Many of us have primary jobs that often need to be prioritized in daily routines, like a full-time job, full-time childcare, full-time academic degree program (a.k.a. school). However, we also want to learn something aside your daily obligation. </p>
-
-        <!-- <p>For example, you may pick up data science skills to boost your productivity at work and potentially even switch your career to a data scientist. Or you may want to learn Japanese, dreaming one day you would travel to Japan and talk to local people there in Japanese. Learning could be rewarding in the long term but it’s not an urgent task. In fact, many people don’t follow through with their learning plans and forget their initial goal.</p> -->
-
-        <!-- <p>Take Coursera or any other online courses as the example. People signed up for a course for various good reasons but most end up not completing the course. CoachEra wants to help you not give on your learning goal and stay motivated in the learning process. </p> -->
+        <h2 style="color: white;">The Who</h2>
+        <p style="color: white;">Anyone who has a less prioritized but meaningful learning goal. What does this mean? Many of us have primary jobs that often need to be prioritized in daily routines, like a full-time job, full-time childcare, full-time academic degree program (a.k.a. school). However, we also want to learn something aside your daily obligation. </p>
+  </div>
+    <img style="width: 200px; height: auto; margin-right: 10%; margin-top: 3%;" src=images/questionmark.png alt="Character with question mark above head">
   </div>
 
   <div class="textblock2">
         <h2><strong id="xtra">Our Ideal Users</strong></h2>
-        <p>Ezra is a 27-year-old office worker. He wants to increase his productivity at work by honing his data science skills. He has been interested in taking online courses about analytic tools, machine learning techniques, etc. He recently signed up for one course. The course is very interesting to him, and also receiving a course certificate could help on his resume. However, due to his demanding schedule, he is worried that he won’t be able to complete the course on time. He often feels tired after work and just wants to watch Netflix. </p>
+        <div style="display: flex; flex-direction: row; gap: 5%;">
+        <p class="thirdtext"><strong>Ezra is a 27-year-old office worker.</strong> <br> <br>
+          He wants to increase his productivity at work by honing his data science skills. He has been interested in taking online courses about analytic tools, machine learning techniques, etc. He recently signed up for one course. The course is very interesting to him, and also receiving a course certificate could help on his resume. However, due to his demanding schedule, he is worried that he won’t be able to complete the course on time. He often feels tired after work and just wants to watch Netflix. </p>
 
-        <p>Alex is a sophomore at college who is majoring in Computer Science. She has wanted to study abroad in a completely new culture. She hopes to be accepted to an exchange program in her junior year. Her top choice is Japan. Speaking Japanese is not required for the program, but would definitely prove useful. For instance, it can help her make Japanese friends. She wants to learn Japanese in her spare time maybe for a hobby. But majoring in Computer Science is not easy; aka there is a steep learning curve and heavy workload.</p>
+        <p class="thirdtext"><strong>Alex is a sophomore at college who is majoring in Computer Science.</strong> <br> <br>
+          She has wanted to study abroad in a completely new culture. She hopes to be accepted to an exchange program in her junior year. Her top choice is Japan. Speaking Japanese is not required for the program, but would definitely prove useful. For instance, it can help her make Japanese friends. She wants to learn Japanese in her spare time maybe for a hobby. But majoring in Computer Science is not easy; aka there is a steep learning curve and heavy workload.</p>
 
-        <p>Parker is a 35-year-old staying-at-home mom who is raising two beautiful children: a preschooler and a toddler. She went to an art school and used to be working as a graphic designer for years. Childcare is challenging, but she can still find ‘me-time’ and use it for her personal growth. She envisions herself restarting her career in the near future, perhaps after her second child starts preschool. She is a bit concerned that she gets too rusty when she looks for a job. She wants to spare some time to refresh her skills or explores some other skills that can lead her to job opportunities. </p>
-  </div>
+        <p class="thirdtext"><strong>Parker is a 35-year-old staying-at-home mom who is raising two beautiful children: a preschooler and a toddler.</strong> <br> <br>
+          She went to an art school and used to be working as a graphic designer for years. Childcare is challenging, but she can still find ‘me-time’ and use it for her personal growth. She envisions herself restarting her career in the near future, perhaps after her second child starts preschool. She is a bit concerned that she gets too rusty when she looks for a job. She wants to spare some time to refresh her skills or explores some other skills that can lead her to job opportunities. </p>
+        </div>
+    </div>
 
   <div class="textblock5">
     <h2><strong id="xtra">Research Project</strong></h2>
